@@ -17,8 +17,8 @@ name = "wincolor"
 bench = false
 
 [dependencies]
-winapi-util = "0.1.1"
+winapi-util = {path = "../../winapi-util"}
 
 [dependencies.winapi]
-version = "0.3"
+path = "../../winapi-rs"
 features = ["minwindef", "wincon"]
